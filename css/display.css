@@ -2,9 +2,13 @@ body {background: url(../images/bg.gif);}
 body a:link, body a:visited {color: #008AAB;}
 h1, h2, h3, h4, h5, h6 {font-family: Georgia; font-style: italic; margin-bottom: 0;}
 
-#pagination {background: none;}
+.entity_actions a, .entity_actions p, .entity_actions .entity_subscribe input, .entity_actions .entity_block input, .entity_actions .entity_moderation input, .entity_actions .entity_role input, .entity_actions .entity_nudge input, .entity_actions .entity_delete input, .entity_actions input.submit {background-color: transparent !important;}
+.entity_actions a:hover, .entity_actions p:hover, .entity_actions .entity_subscribe input:hover, .entity_actions .entity_block input:hover, .entity_actions .entity_moderation input:hover, .entity_actions .entity_role input:hover, .entity_actions .entity_nudge input:hover, .entity_actions .entity_delete input:hover, .entity_actions input.submit:hover {background-color: transparent !important; text-decoration: underline;}
+
+#pagination {background-color: transparent;}
 #pagination .nav_next a {background-position: 115% -253px;}
 #pagination .nav_prev a {background-position: 0 -188px;}
+
 #wrap {padding-top: 0; border: none; background: transparent;}
 #header {padding-top: 10px; overflow: hidden;}
 #header address {float: none; height: 35px; padding: 10px 20px; font-size: 39px; line-height: 39px;}
