@@ -43,8 +43,8 @@ div.entry-content a.response::after {content: ")";}
 #license_cc {vertical-align: middle;}
 #footer #ch_powered {display: block; color: #FFF; padding-left: 84px; margin-bottom: 0;}
 
-/* 2cols */
-  #showstream #site_nav_local_views, #all #site_nav_local_views {display: none;}
+/* Uncomment this if you want a 2cols layout on some pages */
+/*  #showstream #site_nav_local_views, #all #site_nav_local_views {display: none;}
   #showstream #site_nav_local_views_wrapper, #all #site_nav_local_views_wrapper {background: none; border: none;}
-  #showstream #content, #all #content {width: 678px;}
+  #showstream #content, #all #content {width: 678px;} */
 /* /2cols */
