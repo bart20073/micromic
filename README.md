@@ -1,4 +1,4 @@
-# A 2-column Theme for StatusNet
+# A StatusNet Theme
 
 ## Screenshot
 
